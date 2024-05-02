@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5104207C2BE3B6E0006054C9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5104207B2BE3B6E0006054C9 /* LICENSE */; };
 		51505DEC2BE2443A00966E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51505DEB2BE2443A00966E98 /* AppDelegate.swift */; };
 		51505DF02BE2443A00966E98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 51505DEF2BE2443A00966E98 /* Base */; };
 		51505DF22BE2443A00966E98 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51505DF12BE2443A00966E98 /* Icon.png */; };
@@ -70,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5104207B2BE3B6E0006054C9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		51505DE82BE2443A00966E98 /* BlockTwZombie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockTwZombie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51505DEB2BE2443A00966E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51505DEF2BE2443A00966E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		51505DDF2BE2443900966E98 = {
 			isa = PBXGroup;
 			children = (
+				5104207B2BE3B6E0006054C9 /* LICENSE */,
 				51505DEA2BE2443A00966E98 /* BlockTwZombie */,
 				51505E082BE2443F00966E98 /* BlockTwZombieTests */,
 				51505E122BE2443F00966E98 /* BlockTwZombieUITests */,
@@ -350,6 +353,7 @@
 				51505DF22BE2443A00966E98 /* Icon.png in Resources */,
 				51505DF02BE2443A00966E98 /* Base in Resources */,
 				51505DF42BE2443A00966E98 /* Style.css in Resources */,
+				5104207C2BE3B6E0006054C9 /* LICENSE in Resources */,
 				51505DFB2BE2443A00966E98 /* Base in Resources */,
 				51505E342BE2444000966E98 /* Assets.xcassets in Resources */,
 				51505DFE2BE2443A00966E98 /* Base in Resources */,
