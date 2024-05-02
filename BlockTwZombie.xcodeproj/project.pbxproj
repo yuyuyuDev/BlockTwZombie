@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51505DEC2BE2443A00966E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51505DEB2BE2443A00966E98 /* AppDelegate.swift */; };
+		51505DF02BE2443A00966E98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 51505DEF2BE2443A00966E98 /* Base */; };
+		51505DF22BE2443A00966E98 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51505DF12BE2443A00966E98 /* Icon.png */; };
+		51505DF42BE2443A00966E98 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 51505DF32BE2443A00966E98 /* Style.css */; };
+		51505DF62BE2443A00966E98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51505DF52BE2443A00966E98 /* SceneDelegate.swift */; };
+		51505DF82BE2443A00966E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51505DF72BE2443A00966E98 /* ViewController.swift */; };
+		51505DFB2BE2443A00966E98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 51505DFA2BE2443A00966E98 /* Base */; };
+		51505DFE2BE2443A00966E98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 51505DFD2BE2443A00966E98 /* Base */; };
+		51505E0A2BE2443F00966E98 /* BlockTwZombieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51505E092BE2443F00966E98 /* BlockTwZombieTests.swift */; };
+		51505E142BE2443F00966E98 /* BlockTwZombieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51505E132BE2443F00966E98 /* BlockTwZombieUITests.swift */; };
+		51505E162BE2443F00966E98 /* BlockTwZombieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51505E152BE2443F00966E98 /* BlockTwZombieUITestsLaunchTests.swift */; };
+		51505E1C2BE2443F00966E98 /* BlockTwZombie Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 51505E1B2BE2443F00966E98 /* BlockTwZombie Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		51505E212BE2443F00966E98 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51505E202BE2443F00966E98 /* SafariWebExtensionHandler.swift */; };
+		51505E242BE2443F00966E98 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 51505E232BE2443F00966E98 /* _locales */; };
+		51505E262BE2444000966E98 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 51505E252BE2443F00966E98 /* images */; };
+		51505E282BE2444000966E98 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 51505E272BE2444000966E98 /* manifest.json */; };
+		51505E2A2BE2444000966E98 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 51505E292BE2444000966E98 /* background.js */; };
+		51505E2C2BE2444000966E98 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 51505E2B2BE2444000966E98 /* content.js */; };
+		51505E2E2BE2444000966E98 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 51505E2D2BE2444000966E98 /* popup.html */; };
+		51505E302BE2444000966E98 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 51505E2F2BE2444000966E98 /* popup.css */; };
+		51505E322BE2444000966E98 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 51505E312BE2444000966E98 /* popup.js */; };
+		51505E342BE2444000966E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51505DFF2BE2443F00966E98 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51505E062BE2443F00966E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51505DE02BE2443A00966E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51505DE72BE2443A00966E98;
+			remoteInfo = BlockTwZombie;
+		};
+		51505E102BE2443F00966E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51505DE02BE2443A00966E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51505DE72BE2443A00966E98;
+			remoteInfo = BlockTwZombie;
+		};
+		51505E1D2BE2443F00966E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51505DE02BE2443A00966E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51505E1A2BE2443F00966E98;
+			remoteInfo = "BlockTwZombie Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51505E3A2BE2444000966E98 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				51505E1C2BE2443F00966E98 /* BlockTwZombie Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		51505DE82BE2443A00966E98 /* BlockTwZombie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockTwZombie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51505DEB2BE2443A00966E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51505DEF2BE2443A00966E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		51505DF12BE2443A00966E98 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		51505DF32BE2443A00966E98 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		51505DF52BE2443A00966E98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51505DF72BE2443A00966E98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51505DFA2BE2443A00966E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51505DFD2BE2443A00966E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51505DFF2BE2443F00966E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51505E002BE2443F00966E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51505E052BE2443F00966E98 /* BlockTwZombieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTwZombieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51505E092BE2443F00966E98 /* BlockTwZombieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTwZombieTests.swift; sourceTree = "<group>"; };
+		51505E0F2BE2443F00966E98 /* BlockTwZombieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTwZombieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51505E132BE2443F00966E98 /* BlockTwZombieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTwZombieUITests.swift; sourceTree = "<group>"; };
+		51505E152BE2443F00966E98 /* BlockTwZombieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTwZombieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51505E1B2BE2443F00966E98 /* BlockTwZombie Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockTwZombie Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51505E202BE2443F00966E98 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		51505E232BE2443F00966E98 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		51505E252BE2443F00966E98 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		51505E272BE2444000966E98 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		51505E292BE2444000966E98 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		51505E2B2BE2444000966E98 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		51505E2D2BE2444000966E98 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		51505E2F2BE2444000966E98 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		51505E312BE2444000966E98 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		51505E332BE2444000966E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51505DE52BE2443A00966E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E022BE2443F00966E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E0C2BE2443F00966E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E182BE2443F00966E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51505DDF2BE2443900966E98 = {
+			isa = PBXGroup;
+			children = (
+				51505DEA2BE2443A00966E98 /* BlockTwZombie */,
+				51505E082BE2443F00966E98 /* BlockTwZombieTests */,
+				51505E122BE2443F00966E98 /* BlockTwZombieUITests */,
+				51505E1F2BE2443F00966E98 /* BlockTwZombie Extension */,
+				51505DE92BE2443A00966E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51505DE92BE2443A00966E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51505DE82BE2443A00966E98 /* BlockTwZombie.app */,
+				51505E052BE2443F00966E98 /* BlockTwZombieTests.xctest */,
+				51505E0F2BE2443F00966E98 /* BlockTwZombieUITests.xctest */,
+				51505E1B2BE2443F00966E98 /* BlockTwZombie Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51505DEA2BE2443A00966E98 /* BlockTwZombie */ = {
+			isa = PBXGroup;
+			children = (
+				51505DEB2BE2443A00966E98 /* AppDelegate.swift */,
+				51505DF52BE2443A00966E98 /* SceneDelegate.swift */,
+				51505DF72BE2443A00966E98 /* ViewController.swift */,
+				51505DF92BE2443A00966E98 /* LaunchScreen.storyboard */,
+				51505DFC2BE2443A00966E98 /* Main.storyboard */,
+				51505DFF2BE2443F00966E98 /* Assets.xcassets */,
+				51505E002BE2443F00966E98 /* Info.plist */,
+				51505DED2BE2443A00966E98 /* Resources */,
+			);
+			path = BlockTwZombie;
+			sourceTree = "<group>";
+		};
+		51505DED2BE2443A00966E98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51505DEE2BE2443A00966E98 /* Main.html */,
+				51505DF12BE2443A00966E98 /* Icon.png */,
+				51505DF32BE2443A00966E98 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		51505E082BE2443F00966E98 /* BlockTwZombieTests */ = {
+			isa = PBXGroup;
+			children = (
+				51505E092BE2443F00966E98 /* BlockTwZombieTests.swift */,
+			);
+			path = BlockTwZombieTests;
+			sourceTree = "<group>";
+		};
+		51505E122BE2443F00966E98 /* BlockTwZombieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51505E132BE2443F00966E98 /* BlockTwZombieUITests.swift */,
+				51505E152BE2443F00966E98 /* BlockTwZombieUITestsLaunchTests.swift */,
+			);
+			path = BlockTwZombieUITests;
+			sourceTree = "<group>";
+		};
+		51505E1F2BE2443F00966E98 /* BlockTwZombie Extension */ = {
+			isa = PBXGroup;
+			children = (
+				51505E202BE2443F00966E98 /* SafariWebExtensionHandler.swift */,
+				51505E332BE2444000966E98 /* Info.plist */,
+				51505E222BE2443F00966E98 /* Resources */,
+			);
+			path = "BlockTwZombie Extension";
+			sourceTree = "<group>";
+		};
+		51505E222BE2443F00966E98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51505E232BE2443F00966E98 /* _locales */,
+				51505E252BE2443F00966E98 /* images */,
+				51505E272BE2444000966E98 /* manifest.json */,
+				51505E292BE2444000966E98 /* background.js */,
+				51505E2B2BE2444000966E98 /* content.js */,
+				51505E2D2BE2444000966E98 /* popup.html */,
+				51505E2F2BE2444000966E98 /* popup.css */,
+				51505E312BE2444000966E98 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51505DE72BE2443A00966E98 /* BlockTwZombie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51505E3B2BE2444000966E98 /* Build configuration list for PBXNativeTarget "BlockTwZombie" */;
+			buildPhases = (
+				51505DE42BE2443A00966E98 /* Sources */,
+				51505DE52BE2443A00966E98 /* Frameworks */,
+				51505DE62BE2443A00966E98 /* Resources */,
+				51505E3A2BE2444000966E98 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51505E1E2BE2443F00966E98 /* PBXTargetDependency */,
+			);
+			name = BlockTwZombie;
+			productName = BlockTwZombie;
+			productReference = 51505DE82BE2443A00966E98 /* BlockTwZombie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51505E042BE2443F00966E98 /* BlockTwZombieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51505E3E2BE2444000966E98 /* Build configuration list for PBXNativeTarget "BlockTwZombieTests" */;
+			buildPhases = (
+				51505E012BE2443F00966E98 /* Sources */,
+				51505E022BE2443F00966E98 /* Frameworks */,
+				51505E032BE2443F00966E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51505E072BE2443F00966E98 /* PBXTargetDependency */,
+			);
+			name = BlockTwZombieTests;
+			productName = BlockTwZombieTests;
+			productReference = 51505E052BE2443F00966E98 /* BlockTwZombieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51505E0E2BE2443F00966E98 /* BlockTwZombieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51505E412BE2444000966E98 /* Build configuration list for PBXNativeTarget "BlockTwZombieUITests" */;
+			buildPhases = (
+				51505E0B2BE2443F00966E98 /* Sources */,
+				51505E0C2BE2443F00966E98 /* Frameworks */,
+				51505E0D2BE2443F00966E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51505E112BE2443F00966E98 /* PBXTargetDependency */,
+			);
+			name = BlockTwZombieUITests;
+			productName = BlockTwZombieUITests;
+			productReference = 51505E0F2BE2443F00966E98 /* BlockTwZombieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		51505E1A2BE2443F00966E98 /* BlockTwZombie Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51505E372BE2444000966E98 /* Build configuration list for PBXNativeTarget "BlockTwZombie Extension" */;
+			buildPhases = (
+				51505E172BE2443F00966E98 /* Sources */,
+				51505E182BE2443F00966E98 /* Frameworks */,
+				51505E192BE2443F00966E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlockTwZombie Extension";
+			productName = "BlockTwZombie Extension";
+			productReference = 51505E1B2BE2443F00966E98 /* BlockTwZombie Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51505DE02BE2443A00966E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					51505DE72BE2443A00966E98 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					51505E042BE2443F00966E98 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 51505DE72BE2443A00966E98;
+					};
+					51505E0E2BE2443F00966E98 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 51505DE72BE2443A00966E98;
+					};
+					51505E1A2BE2443F00966E98 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 51505DE32BE2443A00966E98 /* Build configuration list for PBXProject "BlockTwZombie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51505DDF2BE2443900966E98;
+			productRefGroup = 51505DE92BE2443A00966E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51505DE72BE2443A00966E98 /* BlockTwZombie */,
+				51505E042BE2443F00966E98 /* BlockTwZombieTests */,
+				51505E0E2BE2443F00966E98 /* BlockTwZombieUITests */,
+				51505E1A2BE2443F00966E98 /* BlockTwZombie Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51505DE62BE2443A00966E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51505DF22BE2443A00966E98 /* Icon.png in Resources */,
+				51505DF02BE2443A00966E98 /* Base in Resources */,
+				51505DF42BE2443A00966E98 /* Style.css in Resources */,
+				51505DFB2BE2443A00966E98 /* Base in Resources */,
+				51505E342BE2444000966E98 /* Assets.xcassets in Resources */,
+				51505DFE2BE2443A00966E98 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E032BE2443F00966E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E0D2BE2443F00966E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E192BE2443F00966E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51505E2A2BE2444000966E98 /* background.js in Resources */,
+				51505E302BE2444000966E98 /* popup.css in Resources */,
+				51505E2E2BE2444000966E98 /* popup.html in Resources */,
+				51505E262BE2444000966E98 /* images in Resources */,
+				51505E282BE2444000966E98 /* manifest.json in Resources */,
+				51505E242BE2443F00966E98 /* _locales in Resources */,
+				51505E2C2BE2444000966E98 /* content.js in Resources */,
+				51505E322BE2444000966E98 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51505DE42BE2443A00966E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51505DF82BE2443A00966E98 /* ViewController.swift in Sources */,
+				51505DEC2BE2443A00966E98 /* AppDelegate.swift in Sources */,
+				51505DF62BE2443A00966E98 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E012BE2443F00966E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51505E0A2BE2443F00966E98 /* BlockTwZombieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E0B2BE2443F00966E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51505E142BE2443F00966E98 /* BlockTwZombieUITests.swift in Sources */,
+				51505E162BE2443F00966E98 /* BlockTwZombieUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51505E172BE2443F00966E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51505E212BE2443F00966E98 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51505E072BE2443F00966E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51505DE72BE2443A00966E98 /* BlockTwZombie */;
+			targetProxy = 51505E062BE2443F00966E98 /* PBXContainerItemProxy */;
+		};
+		51505E112BE2443F00966E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51505DE72BE2443A00966E98 /* BlockTwZombie */;
+			targetProxy = 51505E102BE2443F00966E98 /* PBXContainerItemProxy */;
+		};
+		51505E1E2BE2443F00966E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51505E1A2BE2443F00966E98 /* BlockTwZombie Extension */;
+			targetProxy = 51505E1D2BE2443F00966E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51505DEE2BE2443A00966E98 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51505DEF2BE2443A00966E98 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		51505DF92BE2443A00966E98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51505DFA2BE2443A00966E98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		51505DFC2BE2443A00966E98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51505DFD2BE2443A00966E98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51505E352BE2444000966E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51505E362BE2444000966E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51505E382BE2444000966E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E65JM8E529;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockTwZombie Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BlockTwZombie Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hsp-ring.BlockTwZombie.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51505E392BE2444000966E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E65JM8E529;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockTwZombie Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BlockTwZombie Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hsp-ring.BlockTwZombie.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51505E3C2BE2444000966E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E65JM8E529;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockTwZombie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockTwZombie;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hsp-ring.BlockTwZombie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51505E3D2BE2444000966E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E65JM8E529;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockTwZombie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockTwZombie;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hsp-ring.BlockTwZombie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51505E3F2BE2444000966E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E65JM8E529;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hsp-ring.BlockTwZombieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockTwZombie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockTwZombie";
+			};
+			name = Debug;
+		};
+		51505E402BE2444000966E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E65JM8E529;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hsp-ring.BlockTwZombieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockTwZombie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockTwZombie";
+			};
+			name = Release;
+		};
+		51505E422BE2444000966E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E65JM8E529;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hsp-ring.BlockTwZombieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockTwZombie;
+			};
+			name = Debug;
+		};
+		51505E432BE2444000966E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E65JM8E529;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.hsp-ring.BlockTwZombieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockTwZombie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51505DE32BE2443A00966E98 /* Build configuration list for PBXProject "BlockTwZombie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51505E352BE2444000966E98 /* Debug */,
+				51505E362BE2444000966E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51505E372BE2444000966E98 /* Build configuration list for PBXNativeTarget "BlockTwZombie Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51505E382BE2444000966E98 /* Debug */,
+				51505E392BE2444000966E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51505E3B2BE2444000966E98 /* Build configuration list for PBXNativeTarget "BlockTwZombie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51505E3C2BE2444000966E98 /* Debug */,
+				51505E3D2BE2444000966E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51505E3E2BE2444000966E98 /* Build configuration list for PBXNativeTarget "BlockTwZombieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51505E3F2BE2444000966E98 /* Debug */,
+				51505E402BE2444000966E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51505E412BE2444000966E98 /* Build configuration list for PBXNativeTarget "BlockTwZombieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51505E422BE2444000966E98 /* Debug */,
+				51505E432BE2444000966E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51505DE02BE2443A00966E98 /* Project object */;
+}

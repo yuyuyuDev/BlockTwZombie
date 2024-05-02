@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "BlockTwZombie Extension",
+        "description": "Block Twitter Zombies."
+    },
+    "extension_description": {
+        "message": "This is BlockTwZombie Extension. You should tell us what your extension does here.",
+        "description": "Description of what the extension does."
+    }
+}
